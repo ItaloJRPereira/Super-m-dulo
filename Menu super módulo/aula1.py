@@ -1,36 +1,3 @@
-# nome = str(input("Digite seu nome"))
-# print(f"Bem vindo ao modulo de python {nome}.")
-
-
-# num1 = int(input("Digite um numero: "))
-# num2 = int(input("Digite o segundo número: "))
-
-# print(f'''
-#       {num1} + {num2} = {num1 + num2}
-#       {num1} - {num2} = {num1 - num2}
-#       {num1} / {num2} = {num1 / num2} 
-#       ''')
-
-# idade = int(input("Digite a sua idade: "))
-
-# if idade >= 18:
-#     print("O usuario é maior de idade")
-# else:
-#     print("O usuario é menor de idade")
-
-
-# nota = int(input("Digite a sua nota: "))
-
-# if nota >= 9:
-#     print("Excelente!")
-# elif nota >= 7:
-#     print("Bom!")
-# elif nota >= 6:
-#     print("Regular!")
-# if nota < 6:
-#     print("Reprovado!")
-
-
 ## menu interativo
 
 while True:
@@ -84,5 +51,6 @@ while True:
     
     
     
+
 
 
