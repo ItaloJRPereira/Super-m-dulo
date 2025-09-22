@@ -41,6 +41,14 @@ while True:
         num = int(input("Digite até qual número deseja contar:"))
         for i in range(1, num+1):
             print(i)
+    elif opicao == 4:
+         print("\nBem vindo verificador de IMPAR ou PAR:\n ")
+         num_desejado = bool(input("Digite um número para ver se é par ou impar:"))
+         if num_desejado % 2 == 0:
+             print("")
+             print(f"O número {num_desejado} é par. ")
+         else:
+             print(f"O número {num_desejado} é impar.")
     elif opcao == 0:
         print("Programa encerrado")
         break        
@@ -51,6 +59,7 @@ while True:
     
     
     
+
 
 
 
